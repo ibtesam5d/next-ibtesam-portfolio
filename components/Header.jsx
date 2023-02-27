@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className="pt-[7rem] h-screen overflow-hidden mx-auto w-[90%]">
         <div className="text-center h-full relative">
-            <h3 className="font-semibold mb-2">Hello, I am</h3>
-            <h1 className="text-3xl font-semibold mb-3">Md Ibtesam Hossain</h1>
-            <h2 className="font-semibold mb-2">Front-end Developer</h2>
-            <div className="mt-[2.5rem] flex gap-[1.2rem] justify-center">
+            <h3 className="font-semibold mb-2 lg:text-lg">Hello, I am</h3>
+            <h1 className="text-3xl lg:text-5xl font-semibold mb-3">Md Ibtesam Hossain</h1>
+            <h2 className="font-semibold mb-2 lg:text-xl">Front-end Developer</h2>
+            <div className="mt-[2.5rem] flex gap-[1.2rem] lg:gap-10 justify-center">
                 <a href="" className="px-4 py-3 border-[2px] border-[#4db5ff] text-[#4db5ff] rounded-md hover:bg-white hover:text-gray-900 hover:border-white">Download Resume</a>
                 <a href="" className="px-4 py-3 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white">Let's Talk</a>
             </div>
