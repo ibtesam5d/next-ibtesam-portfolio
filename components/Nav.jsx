@@ -2,8 +2,8 @@ import { useState } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { BiMessageAltDetail } from "react-icons/bi";
+import { BsFileCode } from "react-icons/bs";
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState("#");
@@ -31,11 +31,11 @@ const Nav = () => {
           <BiBook />
         </a>
         <a
-          href="#services"
+          href="#projects"
           className={activeNav === "#services" ? "bg-[#4db5ff] text-gray-900 p-4 rounded-full flex text-[1.1rem] " : "bg-transparent p-4 rounded-full flex text-[1.1rem] text-white hover:bg-black/[0.3]"}
           onClick={() => setActiveNav("#services")}
         >
-          <RiServiceLine />
+          <BsFileCode />
         </a>
         <a
           href="#contact"

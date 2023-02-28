@@ -14,7 +14,7 @@ const Experienc = () => {
         {/* === Front-end Skills === */}
 
         <div className="bg-[#2c2c6c] border-[1px] border-transparent rounded-3xl md:px-2 px-8 py-14 transition-all duration-400 ease hover:bg-transparent hover:border-[#4db5ff66]">
-          <h3 className="text-center mb-8 text-[#4db5ff] text-lg">Front-end Skills</h3>
+          <h3 className="text-center mb-8 text-[#4db5ff] text-lg xl:text-2xl">Front-end Skills</h3>
 
           {/* === Skills === */}
           <div className="grid grid-cols-2 gap-6 lg:gap-8 md:place-items-center">
@@ -32,7 +32,7 @@ const Experienc = () => {
         {/* === Back-end Skills === */}
 
         <div className="bg-[#2c2c6c] border-[1px] border-transparent rounded-3xl md:px-2 px-8 py-14 transition-all duration-400 ease hover:bg-transparent hover:border-[#4db5ff66]">
-          <h3 className="text-center mb-8 text-[#4db5ff] text-lg">Back-end Skills</h3>
+          <h3 className="text-center mb-8 text-[#4db5ff] text-lg xl:text-2xl">Back-end Skills</h3>
           <div className="grid grid-cols-2 gap-6 lg:gap-8 md:place-items-center">
             {back.map((skill)=>(<article className="flex gap-4" key={skill.id}>
             <span className="mt-[6px] sm:text-2xl">{skill.icon}</span>
