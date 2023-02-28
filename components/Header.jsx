@@ -14,7 +14,7 @@ const Header = () => {
                 <a href="" className="px-4 py-3 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white">Let's Talk</a>
             </div>
             {/* ====== Social Links ======= */}
-            <div className="hidden md:flex flex-col absolute left-3 bottom-8 gap-4 items-center">
+            <div className="hidden md:flex flex-col absolute left-9 bottom-8 gap-4 items-center">
                 <BsLinkedin size={20} className="text-[#4db5ff]"/>
                 <BsGithub size={20} className="text-[#4db5ff]"/>
                 <div className="w-[1px] h-10 bg-[#4db5ff]"></div>
