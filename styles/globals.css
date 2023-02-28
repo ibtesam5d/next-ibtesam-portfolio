@@ -10,6 +10,6 @@
         @apply scroll-smooth
     }
     body{
-        @apply bg-[#1f1f38] text-white
+        @apply bg-[#1f1f38] text-white w-[90%] md:w-[86%] lg:w-[75%] mx-auto
     }
 }

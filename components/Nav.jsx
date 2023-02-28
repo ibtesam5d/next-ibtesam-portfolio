@@ -8,7 +8,7 @@ import { BiMessageAltDetail } from "react-icons/bi";
 const Nav = () => {
     const [activeNav, setActiveNav] = useState("#");
     return (
-      <nav className="bg-black/20 w-max flex px-2 py-3 z-10 fixed left-[50%] translate-x-[-50%] bottom-[2rem] gap-3 rounded-[3rem] backdrop-blur-lg">
+      <nav className="bg-black/20 w-max flex px-2 py-3 z-10 fixed left-[50%] translate-x-[-50%] bottom-[1rem] gap-3 rounded-[3rem] backdrop-blur-lg">
         <a
           href="#"
           className={activeNav === "#" ? "bg-[#4db5ff] text-gray-900 p-4 rounded-full flex text-[1.1rem]" : "bg-transparent p-4 rounded-full flex text-[1.1rem] text-white hover:bg-black/[0.3]"}
