@@ -8,7 +8,7 @@ const Projects = () => {
   const [projectData, setProjectData] = useState(data)
 
   return (
-    <section id='projects' className='mt-[7rem] h-screen md:h-full'>
+    <section id='projects' className='mt-[7rem] h-full'>
         <h2 className='font-semibold text-center text-2xl mb-8 md:text-3xl lg:text-4xl text-[#4db5ff]'>My Projects</h2>
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 xl:gap-8 xl:grid-cols-1  ">
 
