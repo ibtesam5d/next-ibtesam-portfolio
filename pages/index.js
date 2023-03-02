@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import EmailMe from "@/components/EmailMe";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <EmailMe />
+        <Footer />
       </main>
     </>
   );

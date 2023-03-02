@@ -9,7 +9,7 @@ const EmailMe = () => {
           <input type="text" placeholder="your full name" className="bg-transparent border-[1px] border-[#4db5ff] text-gray-400 px-4 py-4 rounded-lg"/>
           <input type="email" placeholder="your email" className="bg-transparent border-[1px] border-[#4db5ff] text-gray-400 px-4 py-4 rounded-lg"/>
           <textarea placeholder="your message" className="bg-transparent border-[1px] border-[#4db5ff] text-gray-400 px-4 py-6 rounded-lg"/>
-          <button type="submit" className='md:text-lg px-2 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white w-[20%]'>Submit</button>
+          <button type="submit" className='md:text-lg px-2 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>Submit</button>
         </form>
       </div>
     </section>

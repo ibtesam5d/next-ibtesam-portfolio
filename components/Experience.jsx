@@ -9,7 +9,7 @@ const Experienc = () => {
       <h2 className='font-semibold text-center text-2xl mb-8 md:text-3xl lg:text-4xl text-[#4db5ff]'>My Experience</h2>
 
       {/* ====== skills grid container ========= */}
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 xl:gap-14">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8 xl:gap-14">
 
         {/* === Front-end Skills === */}
 
@@ -22,7 +22,7 @@ const Experienc = () => {
             className="flex gap-4" key={skill.id}>
               <span className="mt-[6px] sm:text-2xl">{skill.icon}</span>
               <div className="">
-                <h4>{skill.title}</h4>
+                <h4 className="text-white">{skill.title}</h4>
                 <small>{skill.level}</small>
               </div>
             </article>))}
@@ -37,7 +37,7 @@ const Experienc = () => {
             {back.map((skill)=>(<article className="flex gap-4" key={skill.id}>
             <span className="mt-[6px] sm:text-2xl">{skill.icon}</span>
               <div className="">
-                <h4>{skill.title}</h4>
+                <h4 className="text-white">{skill.title}</h4>
                 <small>{skill.level}</small>
               </div>
             </article>))}
