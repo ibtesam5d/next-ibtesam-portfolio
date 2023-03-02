@@ -5,8 +5,6 @@ const EmailMe = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    const serviceId = process.env.YOUR_SERVICE_ID
-    const templateId = process.env.YOUR_TEMPLATE_ID
     e.preventDefault();
 
     emailjs.sendForm('service_z6gl8n6', 'template_tf2ufca', form.current, "WHxKuas84w1EC55an")

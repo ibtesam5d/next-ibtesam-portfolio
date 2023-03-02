@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -14,8 +15,8 @@ const About = () => {
             <div className="flex flex-col gap-6 px-4 md:px-8 lg:col-span-2 lg:justify-center">
                 <p className=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto earum dolorem expedita delectus. Quam enim distinctio laborum culpa repellendus! Commodi accusamus aut vel ad cum ipsa molestiae amet incidunt repudiandae?</p>
                 <div className="flex gap-4 md:gap-8">
-                <a href="#projects" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>My Projects</a>
-                <a href="#contact" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>Contact Me</a>
+                <Link scroll={false} href="#projects" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>My Projects</Link>
+                <Link scroll={false} href="#contact" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>Contact Me</Link>
                 </div>
                 
             </div>
