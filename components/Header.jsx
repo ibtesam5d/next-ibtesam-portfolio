@@ -16,8 +16,8 @@ const Header = () => {
             </div>
             {/* ====== Social Links ======= */}
             <div className="hidden md:flex flex-col absolute left-9 bottom-8 gap-4 items-center">
-                <BsLinkedin size={20} className="text-[#4db5ff] cursor-pointer"/>
-                <BsGithub size={20} className="text-[#4db5ff] cursor-pointer"/>
+                <Link href={"https://www.linkedin.com/in/md-ibtesam/"} target="_blank"><BsLinkedin size={20} className="text-[#4db5ff] cursor-pointer"/></Link>
+                <Link href={"https://github.com/ibtesam5d"} target="_blank"><BsGithub size={20} className="text-[#4db5ff] cursor-pointer"/></Link>
                 <div className="w-[1px] h-10 bg-[#4db5ff]"></div>
             </div>
             {/*===== Portfolio Image ====*/}

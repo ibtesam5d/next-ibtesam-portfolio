@@ -24,13 +24,13 @@ const Footer = () => {
 
       <div className="flex gap-8 py-6 md:py-10 items-center justify-center md:text-2xl">
         
-        <a href="#" target="_blank">
+        <a href="https://github.com/ibtesam5d" target="_blank">
           <BsGithub />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://twitter.com/RickyIbtesam" target="_blank">
           <BsTwitter />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.linkedin.com/in/md-ibtesam/" target="_blank">
           <BsLinkedin />
         </a>
       </div>
