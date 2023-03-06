@@ -49,7 +49,7 @@ export const expDataBack = [
   {
     id: 0,
     title: "Next JS",
-    level: "Experienced",
+    level: "Intermediate",
     icon: (
       <SiNextdotjs className="text-gray-900 bg-white rounded-full p-[2px]" />
     ),
