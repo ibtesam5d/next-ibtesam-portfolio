@@ -8,7 +8,7 @@ const About = () => {
         <h2 className='font-semibold text-center text-2xl mb-8 md:text-3xl lg:text-4xl text-[#4db5ff]'>About Me</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 py-10 gap-8">
             {/* ====== Image ======== */}
-            <div className="lg:col-span-1 md:w-[30%] lg:w-[80%] xl:w-[70%] mx-auto rounded-3xl bg-gradient-to-tr from-[transparent] via-[#4db5ff] to-[transparent] grid place-items-center ">
+            <div className="lg:col-span-1 md:w-[30%] lg:w-[85%] xl:w-[65%] mx-auto rounded-3xl bg-gradient-to-tr from-[transparent] via-[#4db5ff] to-[transparent] grid place-items-center ">
                 <Image src="/images/about.png" width={250} height={240} alt="Ibtesam's Photo" className='rounded-3xl rotate-6 hover:rotate-0 transition-all duration-500 ease'/>
             </div>
             {/* ====== Info ======== */}
