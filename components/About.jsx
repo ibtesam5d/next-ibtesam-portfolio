@@ -15,7 +15,7 @@ const About = () => {
             <div className="flex flex-col gap-6 px-4 md:px-8 lg:col-span-2 lg:justify-center">
                 <p className=''>Aspiring software developer with 1.5 years of experience in web technologies. Recently, I pivoted my career from civil engineering to software development due to my passion for web development and problem-solving abilities.</p>
 
-                <p>Currently, I focus on developing fully responsive and dynamic web applications. Besides using HTML/CSS and JavaScript, I typically use React as a front-end framework. In addition, I use Next JS together with MongoDB to build full-stack web application.</p>
+                <p>Currently, I focus on developing fully responsive and dynamic web applications. Besides using HTML/CSS and JavaScript, I typically use React as a front-end library. In addition, I use Next JS together with MongoDB to build full-stack web application.</p>
                 <div className="flex gap-4 md:gap-8">
                 <Link scroll={false} href="#projects" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>My Projects</Link>
                 <Link scroll={false} href="#contact" className='px-4 py-2 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white'>Contact Me</Link>
