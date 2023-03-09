@@ -5,7 +5,7 @@ const Experienc = () => {
   const [front, setFront] = useState(expDataFront)
   const [back, setBack] = useState(expDataBack)
   return (
-    <section id='experience' className='mt-[7rem] h-screen md:h-full'>
+    <section id='experience' className='mt-[7rem] h-full md:h-full'>
       <h2 className='font-semibold text-center text-2xl mb-8 md:text-3xl lg:text-4xl text-[#4db5ff]'>My Experience</h2>
 
       {/* ====== skills grid container ========= */}

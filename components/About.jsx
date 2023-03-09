@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='about' className='mt-[7rem] h-screen md:h-full'>
+    <section id='about' className='mt-[7rem] h-full'>
         <h2 className='font-semibold text-center text-2xl mb-8 md:text-3xl lg:text-4xl text-[#4db5ff]'>About Me</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 py-10 gap-8">
             {/* ====== Image ======== */}
