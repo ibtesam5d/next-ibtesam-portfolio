@@ -13,6 +13,6 @@ export const data = [
     img: "/images/td.png",
     gitUrl: "https://github.com/ibtesam5d/webpack-td",
     liveUrl: "https://mdibtesamhossain.com/td-webpack/",
-    desc: "This is a frontend project of an online store developed using webpack. Aim of this project was to emulate an online store listing their products with product filter options for users. I used JavaScript Map and Filter method along with event listeners to manipulate the DOM. Project is styled with SASS and bundled with webpack. Please checkout github for dev dependencies.",
+    desc: "This is a frontend project of an online store developed using webpack. Aim of this project is to emulate an online store listing their products with a product filter feature. Filter options include: filter by categories, by price and by typing in the search box. I used JavaScript Map and Filter method along with event listeners to manipulate the DOM. Project is styled with SASS and bundled with webpack. Please checkout github for dev dependencies.",
   },
 ];
