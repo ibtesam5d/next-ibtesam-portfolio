@@ -1,7 +1,13 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript, IoLogoCss3, IoLogoNodejs } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiPhp, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiPhp,
+  SiNextdotjs,
+  SiExpress,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BsBootstrapFill } from "react-icons/bs";
 import { GrMysql } from "react-icons/gr";
@@ -27,9 +33,9 @@ export const expDataFront = [
   },
   {
     id: 3,
-    title: "Bootstrap",
-    level: "Intermediate",
-    icon: <BsBootstrapFill className="text-purple-700" />,
+    title: "React",
+    level: "Expeirenced",
+    icon: <FaReact className="text-[#4db5ff]" />,
   },
   {
     id: 4,
@@ -39,37 +45,49 @@ export const expDataFront = [
   },
   {
     id: 5,
-    title: "React",
-    level: "Expeirenced",
-    icon: <FaReact className="text-[#4db5ff]" />,
+    title: "Bootstrap",
+    level: "Intermediate",
+    icon: <BsBootstrapFill className="text-purple-700" />,
   },
 ];
 
 export const expDataBack = [
   {
     id: 0,
+    title: "Node JS",
+    level: "Experienced",
+    icon: <IoLogoNodejs className="text-green-500" />,
+  },
+  {
+    id: 1,
+    title: "Express JS",
+    level: "Experienced",
+    icon: <SiExpress className="text-gray-900 bg-white rounded-full p-[2px]" />,
+  },
+  {
+    id: 2,
     title: "Next JS",
-    level: "Intermediate",
+    level: "Experienced",
     icon: (
       <SiNextdotjs className="text-gray-900 bg-white rounded-full p-[2px]" />
     ),
   },
   {
-    id: 1,
+    id: 3,
     title: "MongoDB",
-    level: "Intermediate",
+    level: "Experienced",
     icon: <SiMongodb className="text-green-500" />,
   },
   {
-    id: 2,
-    title: "PHP",
-    level: "Basic",
-    icon: <SiPhp className="text-slate-600  bg-white rounded-full p-[2px]" />,
-  },
-  {
-    id: 3,
+    id: 4,
     title: "MySQL",
     level: "Basic",
     icon: <GrMysql className="text-cyan-900  bg-white rounded-full p-[2px]" />,
+  },
+  {
+    id: 5,
+    title: "PHP",
+    level: "Basic",
+    icon: <SiPhp className="text-slate-600  bg-white rounded-full p-[2px]" />,
   },
 ];

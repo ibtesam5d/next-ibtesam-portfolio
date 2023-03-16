@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 0,
-    title: "Snap it! NextJs Full-Stack E-commerce Shop",
+    title: "Snap it! - NextJs Full-Stack E-commerce Shop",
     img: "/images/snap.png",
     gitUrl: "https://github.com/ibtesam5d/NextJs-E-Commerce-Project---Snap-it-",
     liveUrl: "https://snap-it.vercel.app/",

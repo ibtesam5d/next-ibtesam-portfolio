@@ -9,7 +9,7 @@ const Header = () => {
         <div className="text-center h-full relative">
             <h3 className="font-semibold mb-2 lg:text-lg">Hello, I am</h3>
             <h1 className="text-3xl lg:text-5xl font-semibold mb-3">Md Ibtesam Hossain</h1>
-            <h2 className="font-semibold mb-2 lg:text-xl tracking-wider text-white/75">Front-end Developer</h2>
+            <h2 className="font-semibold mb-2 lg:text-xl tracking-wider text-white/75">Full-Stack Developer</h2>
             <div className="my-[2.5rem] flex gap-[1.2rem] lg:gap-10 justify-center">
                 <a href="/Md Ibtesam Hossain Resume.pdf" download className="px-2 md:px-4 py-3 border-[2px] border-[#4db5ff] text-[#4db5ff] rounded-md hover:bg-white hover:text-gray-900 hover:border-white">Download Resume</a>
                 <a href="#contact" className="px-2 md:px-4 py-3 border-[2px] border-[#4db5ff] text-gray-900 rounded-md bg-[#4db5ff] hover:bg-white hover:text-gray-900 hover:border-white">Contact Me</a>
