@@ -13,7 +13,7 @@ export const data = [
     img: "/images/story.png",
     gitUrl: "https://github.com/ibtesam5d/MERN-Story",
     liveUrl: "https://story-fe.onrender.com/",
-    desc: "This is a MERN stack application for authors and readers. Authors can post books and readers can purchase and post reviews. Tech used: SASS, React Router, Stripe, JWT, Bcrypt, React Query, REST Api using Express and MongoDB. Sample user: user1, pwd:user1. Backend source code here:github.com/ibtesam5d/MERN-Story-Node-Api",
+    desc: "This is a MERN stack application for authors and readers. Authors can post books and readers can purchase and post reviews. Tech used: SASS, React Router, Stripe, JWT, Bcrypt, React Query, REST Api using Express and MongoDB. Sample user: user2, pwd:user2, Sample author: James, pwd: james. Backend source code here:github.com/ibtesam5d/MERN-Story-Node-Api",
   },
   // {
   //   id: 2,
