@@ -1,20 +1,21 @@
 export const data = [
   {
     id: 0,
-    title: "Snap it! - NextJs Full-Stack E-commerce Shop",
-    img: "/images/snap.png",
-    gitUrl: "https://github.com/ibtesam5d/NextJs-E-Commerce-Project---Snap-it-",
-    liveUrl: "https://snap-it.vercel.app/",
-    desc: "This full stack project showcases my strong understanding on creating dynamic front-end components using back-end data. I used Tailwind CSS for styling, MongoDB and Mongoose for database connection and Redux/Redux-Toolkit for state management. Also, I integrated paypal payment method using React-Paypal-Js. REST Api end-points for CRUD operation, Axios for data fetching and JWT for client-side authentication. For admin panel, name: admin, password:1234",
-  },
-  {
-    id: 1,
     title: "Story - MERN Full-Stack Project",
     img: "/images/story.png",
     gitUrl: "https://github.com/ibtesam5d/MERN-Story",
     liveUrl: "https://story-fe.onrender.com/",
     desc: "This is a MERN stack application for authors and readers. Authors can post books and readers can purchase and post reviews. Tech used: SASS, React Router, Stripe, JWT, Bcrypt, React Query, REST Api using Express and MongoDB. Sample user: user2, pwd:user2, Sample author: James, pwd: james. Backend source code here:github.com/ibtesam5d/MERN-Story-Node-Api",
   },
+  {
+    id: 1,
+    title: "Snap it! - NextJs Full-Stack E-commerce Shop",
+    img: "/images/snap.png",
+    gitUrl: "https://github.com/ibtesam5d/NextJs-E-Commerce-Project---Snap-it-",
+    liveUrl: "https://snap-it.vercel.app/",
+    desc: "This full stack project showcases my strong understanding on creating dynamic front-end components using back-end data. I used Tailwind CSS for styling, MongoDB and Mongoose for database connection and Redux/Redux-Toolkit for state management. Also, I integrated paypal payment method using React-Paypal-Js. REST Api end-points for CRUD operation, Axios for data fetching and JWT for client-side authentication. For admin panel, name: admin, password:1234",
+  },
+
   // {
   //   id: 2,
   //   title: "Timeless Design - Webpack Project",
